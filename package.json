@@ -1,0 +1,29 @@
+{
+  "name": "linux-menu-bar-app",
+  "version": "1.0.0",
+  "description": "Simple menu bar application template.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd app && gulp build:production && cd .. && electron-packager . app --platform=linux --arch=x64 --out=platformBuilds",
+    "start": "cd app && gulp && cd .. && electron .",
+    "stop": "kill -9 $(ps aux | grep '[l]inux-menu-bar-app' | grep [e]lectron | awk '{print $2}')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumtype/linux-menu-bar-app.git"
+  },
+  "author": "James Mason",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sumtype/linux-menu-bar-app/issues"
+  },
+  "homepage": "https://github.com/sumtype/linux-menu-bar-app#readme",
+  "devDependencies": {
+    "electron-packager": "^8.5.0",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "electron-positioner": "^3.0.0",
+    "extend": "^3.0.0"
+  }
+}

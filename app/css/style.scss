@@ -1,0 +1,15 @@
+/********************************************************************************
+  style.scss
+    Imports of all application stylesheets.
+********************************************************************************/
+
+// Browser styling reset and normailzation.
+@import 'vendor/_reset-2.0.scss';
+@import 'vendor/_normalize-5.0.0.scss';
+
+// SMACSS Styling
+@import 'smacss/_base.scss';
+@import 'smacss/_layout.scss';
+@import 'smacss/_module.scss';
+@import 'smacss/_state.scss';
+@import 'smacss/_theme.scss';

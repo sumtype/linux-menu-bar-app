@@ -1,0 +1,26 @@
+{
+  "name": "linux-menu-bar-app-template",
+  "version": "1.0.0",
+  "description": "Template for structure for your Linux menu bar application.",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.8.0",
+    "csswring": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-font-family": "^2.0.0",
+    "postcss-font-magician": "^1.5.0",
+    "webpack": "^1.13.3",
+    "webpack-stream": "^3.2.0"
+  }
+}
